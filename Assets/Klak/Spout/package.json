@@ -1,0 +1,17 @@
+{
+  "name": "ga.fuquna.klak.spout",
+  "version": "1.0.0",
+  "displayName": "Klak Spout forked by fuqunaga",
+  "description": "Forked project of keijiro's Klak Spout(https://github.com/keijiro/KlakSpout)",
+  "unity": "2019.3",
+  "dependencies": {
+ },
+ "keywords": [
+    "spout"
+  ],
+  "author": {
+    "name": "fuqunaga",
+    "email": "fukhid@gmail.com",
+    "url": "https://fuquna.ga"
+  }
+}

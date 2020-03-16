@@ -11,7 +11,7 @@ namespace Klak.Spout
     {
         #region Source settings
 
-        [SerializeField] string _senderName;
+        [SerializeField] string _senderName = null;
 
         string senderName => string.IsNullOrEmpty(_senderName) ? name : _senderName;
         string currentSenderName;
