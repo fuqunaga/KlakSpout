@@ -1,10 +1,13 @@
 KlakSpout forked by fuqunaga
 =========
-This is a forked project of keijiro's [KlakSpout](https://github.com/keijiro/KlakSpout).
+A forked project of keijiro's [KlakSpout](https://github.com/keijiro/KlakSpout).
 
-**Custom Features**
-* Compatible with UnityPackageManager 
-* SpoutSender can have a SenderName different from GameObject
+### Custom Features
+1. **Compatible with UnityPackageManager**
+git url for UPM(> Unity 2019.3.4).
+`https://github.com/fuqunaga/KlakSpout.git?path=/Assets/Klak/Spout`
+
+1. **SpoutSender can have a SenderName different from GameObject**
 
 KlakSpout
 =========
