@@ -14,7 +14,7 @@ namespace Klak.Spout
         [SerializeField]
         public string _senderName = null;
 
-        string senderName => string.IsNullOrEmpty(_senderName) ? name : _senderName;
+        public string senderName => string.IsNullOrEmpty(_senderName) ? name : _senderName;
         string currentSenderName;
 
 
