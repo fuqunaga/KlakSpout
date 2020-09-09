@@ -22,7 +22,13 @@ namespace Klak.Spout
 
         public RenderTexture sourceTexture {
             get { return _sourceTexture; }
-            set { _sourceTexture = value; }
+            set {
+                if (_sourceTexture != value)
+                {
+                    DisposePlugin();
+                    _sourceTexture = value;
+                }
+            }
         }
 
         #endregion
